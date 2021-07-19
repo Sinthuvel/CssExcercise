@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="button">
+      <button type="submit" name="button"><a href="index.html">Home</a></button>
+    </div>
+    <h2 id="h2-align">Uki- Student</h2>
+
+    <form id ="form-align" action="/action_page.php">
+    <fieldset>
+      <legend id="leg">Uki Life</legend>
+
+      <label for="first">First Name :</label>
+      <input type="text" placeholder="type here" name="name" id="first" required><br><br>
+
+      <label for="last">Last Name :</label>
+      <input type="text" placeholder="type here" name="name" id="last" required><br><br>
+
+      <label for="no">Reg.No :</label>
+      <input type="text" placeholder="type here" name="name" id="no" required><br><br>
+
+      <label for="dob">Date of birth :</label>
+      <input type="text" placeholder="type here" name="name" id="dob" required><br><br>
+
+      <label for="gender">Gender :</label>
+      <input type="radio" id="gender" value="Male" required>Male
+      <input type="radio" id="gender" value="Female" required>Female<br><br>
+
+      <label for="fsub">Fav.Subject:</label><br>
+      <input type="checkbox" id="fsub" value="Programming" required>Programming
+      <input type="checkbox" id="fsub" value="Business" required>Business
+      <input type="checkbox" id="fsub" value="Personal coaching" required>Personal coaching
+      <input type="checkbox" id="fsub" value="English" required>English<br><br>
+
+      <label for="fback">Feedback:</label><br>
+      <textarea id="fback" name="name" style="height:100px"></textarea><br><br>
+
+    <input type=submit value="SUBMIT">
+    <input type="submit" value="RESET">
+
+
+  </fieldset>
+  </form>
+  </body>
+  </html>
